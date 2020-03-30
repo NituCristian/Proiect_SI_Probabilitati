@@ -38,7 +38,7 @@ makeHighPerformanceSport = ConditionalProbabilityTable(
          [False,   False,  False, True, 0.06],
          [False,   False,  False, False, 0.94]], [likeCompetitions, isRich, overThirty])
 
-isChinese = DiscreteDistribution({True: 0.04, False: 0.96})
+isChinese = DiscreteDistribution({True: 0.18, False: 0.82})
 preferIndoorSports = DiscreteDistribution({True: 0.35, False: 0.65})
 
 participateAtPingPongCompetitions = ConditionalProbabilityTable(
